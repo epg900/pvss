@@ -4,7 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 import os
 
 def index(request):
-    return  render(request,"pvss/index.html")
+    return  render(request,"evtt/index.html")
 
 @csrf_exempt
 def transcribe(request):

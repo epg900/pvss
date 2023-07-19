@@ -1,4 +1,4 @@
-Erscipcard
+Evtt
 =========
 Django app that use vosk library to convert voice to text.
 
