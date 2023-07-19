@@ -18,4 +18,4 @@ INSTALLED_APPS = [
 path('pvss/', include('pvss.urls')),
 ```
 
-3.Visit http://127.0.0.1:8000/pvss/ to create users and its cards.
+3.Visit http://127.0.0.1:8000/pvss/ to voice to text.
