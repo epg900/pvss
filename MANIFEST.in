@@ -1,4 +1,4 @@
 include LICENSE
 include README.md
-recursive-include pvss/static *
-recursive-include pvss/templates *
+recursive-include evtt/static *
+recursive-include evtt/templates *
