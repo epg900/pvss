@@ -173,7 +173,7 @@ function createDownloadLink(blob) {
 	var fd1= new FormData();
 	//fd1.append("csrfviewmiddleware","{{ csrf_token }}");
 	fd1.append("file",blob);	
-	fetch("/pvss/transcribe/" , {
+	fetch("/evtt/transcribe/" , {
 		method: "POST",
 		//headers: {"Content-Type" : "text/html; charset=UTF-8"},
 		body: fd1,	
